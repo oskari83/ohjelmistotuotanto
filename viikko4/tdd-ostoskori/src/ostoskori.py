@@ -20,7 +20,7 @@ class Ostoskori:
         self._amountKorissa +=1
         if prod.tuotteen_nimi() in self._lisatytnimet:
             for i in range(len(self._kori)):
-                if self._kori[i].tuotteen_nimi()==prod.tuotteen_nimi:
+                if self._kori[i].tuotteen_nimi()==prod.tuotteen_nimi():
                     self._kori[i].muuta_lukumaaraa(1)
         else:
             self._kori.append(prod)
