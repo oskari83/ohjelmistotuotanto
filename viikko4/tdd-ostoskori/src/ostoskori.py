@@ -27,9 +27,17 @@ class Ostoskori:
             self._lisatytnimet.append(prod.tuotteen_nimi())
         self._hinta += lisattava.hinta()
 
-    def poista_tuote(self, poistettava: Tuote):
-        pass
-
+    def poista_tuote(self, poistettava: Tuote):    
+        for i in range(len(self._kori)):
+            if self._kori[i].tuotteen_nimi()==poistettava.nimi():
+                if self._kori[i].lukumaara()==1:
+                    self._kori.pop(i)
+                    self._lisatytnimet.remove(poistettava.nimi())
+                else:
+                    self._kori[i].muuta_lukumaaraa(-1)
+                self._amountKorissa -=1
+                self._hinta -= poistettava.hinta()
+        
     def tyhjenna(self):
         pass
         # tyhjentää ostoskorin
