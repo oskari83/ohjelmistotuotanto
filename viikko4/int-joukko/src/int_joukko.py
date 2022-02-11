@@ -119,4 +119,4 @@ class IntJoukko:
                 if i!= self.pointer-1:
                     tulostus += ", "
         return tulostus + "}"
-    #muutos1
+    #muutos2
