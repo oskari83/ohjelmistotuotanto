@@ -7,7 +7,6 @@ class Ostoskori:
         self._amountKorissa = 0
         self._kori = []
         self._lisatytnimet = []
-        # ostoskori tallettaa Ostos-oliota, yhden per korissa oleva Tuote
 
     def tavaroita_korissa(self):
         return self._amountKorissa
