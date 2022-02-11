@@ -39,8 +39,7 @@ class Ostoskori:
                 self._hinta -= poistettava.hinta()
         
     def tyhjenna(self):
-        pass
-        # tyhjentää ostoskorin
+        self._kori = []
 
     def ostokset(self):
         return self._kori
