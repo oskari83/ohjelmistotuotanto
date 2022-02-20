@@ -1,0 +1,5 @@
+-- Start, Stop, Continue, More of, Less of Wheel --
+Tässä retrospektiivitekniikassa piirretään ympyrä kartongille, ja kirjoitetaan viiteen lohkoon sanat "Start", "Stop", "Continue", "More of" ja "Less of". Tämän jälkeen kysytään ryhmältä, mitä meidän pitäisi alkaa tekemään, minkä tekeminen meidän pitäisi lopettaa, jne. kuten ympyrän sanat kuvaavat. Tämän jälkeen ryhmän ideat ja kommentit kirjoitetaan lohkoon oikean sanan alle. 
+
+-- Glad, Sad, Mad --
+Tässä retrospektiivitekniikassa jaetaan ensiksi ihmisille pieniä indeksi-kortteja joille 15 minuutin ajan kirjoitetaan asioita tai observaatioita edellisestä sprintistä. Tämän jälkeen ihmiset asettavat kortit taululle, ja tämä taulu on jaettu kolmeen osioon: "Glad", "Sad ja "Mad". Toisin sanoen sen perusteella mitä kortissa lukee asetetaan se oikeaan osioon. Tämän jälkeen kortit laitetaan fyysisesti lähekkäin ja äänestetään siitä, mistä korteista halutaan puhua. Tämän jälkeen ryhmän johtaja ottaa eniten ääniä saaneita kortteja käsittelyyn puheenaihaeeksi niin kauan kuin aika riittää (yleensä 1 tunti maksimi). 
